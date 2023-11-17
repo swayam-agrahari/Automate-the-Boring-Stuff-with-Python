@@ -1,0 +1,33 @@
+1. What is a relative path relative to?
+-->A relative path is relative to the program’s current working directory
+
+2. What does an absolute path start with?
+-->It starts with the root folder.
+
+3. What does Path('C:/Users') / 'Al' evaluate to on Windows?
+-->WindowsPath('C:/Users/Al')
+
+
+4. What does 'C:/Users' / 'Al' evaluate to on Windows?
+--> It will give an error.
+
+5. What do the os.getcwd() and os.chdir() functions do?
+-->oc.getcwd() gets the path of current working directory as a string and os.chdir() helps to change it.
+
+6. What are the . and .. folders?
+--> . is used to denote current directory and .. is used to denote parent directory.
+
+7. In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is the base name?
+-->eggs is the directory name and base name is spam
+
+8. What are the three “mode” arguments that can be passed to the open() function?
+-->the three modes are 'r' , 'w' and 'a' i.e read, write and append
+
+9. What happens if an existing file is opened in write mode?
+--> All the contents of that very file is deleted.
+
+10. What is the difference between the read() and readlines() methods?
+-->read() can be used to read content of file in a string whereas readlines() is used to read the content in a list of strings.
+
+11. What data structure does a shelf value resemble?
+-->it resemble as a dictionary.
